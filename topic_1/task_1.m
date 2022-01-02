@@ -34,13 +34,10 @@ trafficLight_Base = rectangle('Position', [24 5 2 10],...
 
 hold on;
 
-%line_1 = line([24 26], [10 13], 'Color', [1 1 0], 'LineWidth', 2);
 x = [24, 24, 26, 26];
 y = [10, 11, 14, 13];
 fill(x, y, 'y');
 fill(x, y-4, 'y');
-%pgon1 = polyshape([24 24 26 26],[10 11 13])
-%plot(pgon1)
 
 xlim([0 50]);
 ylim([0 50]);
